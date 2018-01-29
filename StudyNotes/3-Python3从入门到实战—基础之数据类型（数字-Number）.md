@@ -1,6 +1,5 @@
 
-# 2-Python3从入门到实战—基础之数据类型（数字-Number）
-
+# 3-Python3从入门到实战—基础之数据类型（数字-Number）
 
 Python3 中有六个标准的数据类型：
 >* Number（数字）
@@ -10,25 +9,43 @@ Python3 中有六个标准的数据类型：
 >* Sets（集合）
 >* Dictionary（字典）
 
-#### Number(数字)
->* Python3 支持 int、float、bool、complex（复数）。
+## Number(数字)
+* Python3 支持三种不同的数值类型： int（整型）、float（浮点型）、complex（复数）；
+* 整型（Int），是正或负整数，不带小数点，int没有限制大小，表示为长整型，在Python 3里，只有一种整数类型 int，没有 python2 中的 Long；
+* 浮点型(float) - 浮点型由整数部分与小数部分组成，浮点型也可以使用科学计数法表示（2.5e2 = 2.5 x 102 = 250）；
+* 复数( (complex)) - 复数由实数部分和虚数部分构成，可以用a + bj,或者complex(a,b)表示， 复数的实部a和虚部b都是浮点型；
 ```
 int:	1,5,10,500,10000...
 float： 0.0,52.0,-66.66,88.8E-88...
 bool:True,False
 complex:3.14j,20+3j,-652+8j,3e+6j...
 ```
->* 在Python 3里，只有一种整数类型 int，表示为长整型，没有 python2 中的 Long。
->* 内置的 type() 函数可以用来查询变量所指的对象类型 
+
+## 数字类型转换
+>* int(x) 将x转换为一个整数。
+>* float(x) 将x转换到一个浮点数。
+>* complex(x) 将x转换到一个复数，实数部分为 x，虚数部分为 0。
+>* complex(x, y) 将 x 和 y 转换到一个复数，实数部分为 x，虚数部分为 y。x 和 y 是数字表达式。
 ```
-print(type(20))#输出结果：<class 'int'>
-print(type("SiberiaDante"))#输出结果：<class 'str'>
-print(type(True))#输出结果：<class 'bool'>
-print(type(20+3j))#输出结果：<class 'complex'>
+a = 1.0
+b = 2
+print(int(a))	#输出结果：1
+print(float(b))	#输出结果：2.0
+print(complex(a))	#输出结果：(1+0j)
+print(complex(a,b))	#输出结果：(1+2j)
+```
+## 数学函数
+```
+2 + 2	# 结果 4
+10 + 2 * 2	# 结果 14
+10 / 2	# 结果 5.0
+10 // 2	# 结果 5
+10.0 // 2	# 结果 5.0
 ```
 
-
-
+## 数学常量
+* 数学常量 pi：表示圆周率，一般以π来表示
+* 数学常量 e：e即自然常数（自然常数）。
 
 
 
