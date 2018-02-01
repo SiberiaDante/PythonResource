@@ -30,12 +30,12 @@ a // b 返回结果 2			# // 表示 a 除以 b 的商的整数部分
 ```
 a = 10
 b = 5
-( a > b )    返回结果    True
-( a < b )  	 返回结果    False
-( a >= b )   返回结果 	True
-( a <= b )   返回结果 	False
-( a == b )   返回结果 	False
-( a != b )   返回结果    True
+( a > b )   返回结果    True
+( a < b )   返回结果    False
+( a >= b )  返回结果 	True
+( a <= b )  返回结果 	False
+( a == b )  返回结果 	False
+( a != b )  返回结果    True
 ```
 
 ## 赋值运算符
@@ -121,9 +121,9 @@ a = 10
 list = [1, 2, 3, 4, 5 ];
  
 if ( a in list ):
-   print ("变量 a 在列表中 list 中")
+    print ("变量 a 在列表中 list 中")
 else:
-	print("变量 a 不在列表 list 中")
+    print("变量 a 不在列表 list 中")
 ```
 * not in:如果在指定的序列中没有找到值返回 True，否则返回 False;
 ```
@@ -131,9 +131,9 @@ a = 10
 list = [1, 2, 3, 4, 5 ];
  
 if ( a not in list ):
-   print ("变量 a 不在列表中 list 中")
+    print ("变量 a 不在列表中 list 中")
 else:
-	print("变量 a 在列表 list 中")
+    print("变量 a 在列表 list 中")
 ```
 ## 身份运算符
 * Python中身份运算符包含：is,is not;身份运算符用于比较两个对象的存储单元
@@ -143,22 +143,22 @@ a = 20
 b = 20
  
 if ( a is b ):
-   print (" a 和 b 有相同的标识")
+    print (" a 和 b 有相同的标识")
 else:
-   print (" a 和 b 没有相同的标识")
+    print (" a 和 b 没有相同的标识")
 
 if ( id(a) == id(b) ):
-   print (" a 和 b 有相同的标识")
+    print (" a 和 b 有相同的标识")
 else:
-   print (" a 和 b 没有相同的标识")
+    print (" a 和 b 没有相同的标识")
 # 输出结果均为： a 和 b 有相同的标识
 
 # 修改 b 的值
 b = 30
 if ( a is b ):
-   print (" a 和 b 有相同的标识")
+    print (" a 和 b 有相同的标识")
 else:
-   print (" a 和 b 没有相同的标识")
+    print (" a 和 b 没有相同的标识")
 # 输出结果： a 和 b 没有相同的标识
 ```
 * is not 判断两个标识符是不是引用自不同对象,x is not y ， 类似 id(a) != id(b)
@@ -167,39 +167,39 @@ a = 20
 b = 30
  
 if ( a is not b ):
-   print (" a 和 b 没有相同的标识")
+    print (" a 和 b 没有相同的标识")
 else:
-   print (" a 和 b 有相同的标识")
+    print (" a 和 b 有相同的标识")
 
 if ( id(a) ！= id(b) ):
-   print (" a 和 b 没有相同的标识")
+    print (" a 和 b 没有相同的标识")
 else:
-   print (" a 和 b 有相同的标识")
+    print (" a 和 b 有相同的标识")
 # 输出结果均为： a 和 b 没有相同的标识
 
 # 修改 b 的值
 b = 20
 if ( a is not b ):
-   print (" a 和 b 没有相同的标识")
+    print (" a 和 b 没有相同的标识")
 else:
-   print (" a 和 b 有相同的标识")
+    print (" a 和 b 有相同的标识")
 # 输出结果： a 和 b 有相同的标识
 ```
 ## 运算符优先级
 * 运算符优先级从高到底如下：
 
 ```
-**							指数 (最高优先级)
-~ + -						按位翻转, 一元加号和减号 (最后两个的方法名为 +@ 和 -@)
-* / % //					乘，除，取模和取整除
-+ -							加法减法
->> <<	                    右移，左移运算符
-&							位 'AND'
-^ |							位运算符
-<= < > >=					比较运算符
-<> == !=					等于运算符
-= %= /= //= -= += *= **=		赋值运算符
-is is not					身份运算符
-in not in					成员运算符
-not or and					逻辑运算符
+**          指数 (最高优先级)
+~ + -       按位翻转, 一元加号和减号 (最后两个的方法名为 +@ 和 -@)
+* / % //    乘，除，取模和取整除
++ -	        加法减法
+>> <<       右移，左移运算符
+&           位 'AND'
+^ |         位运算符
+<= < > >=   比较运算符
+<> == !=    等于运算符
+= %= /= //= -= += *= **=    赋值运算符
+is is not                   身份运算符
+in not in                   成员运算符
+not or and                  逻辑运算符
 ```
