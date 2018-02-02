@@ -1,4 +1,7 @@
 # 1-Python3从入门到实战—基础之语法
+
+## [Python从入门到实战系列——目录](https://github.com/SiberiaDante/PythonResource/blob/master/README.md)
+
 ## 编码格式
 * 默认情况下，Python 3 源码文件以 UTF-8 编码，所有字符串都是 unicode 字符串
 ```

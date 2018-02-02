@@ -1,5 +1,6 @@
-
 # 3-Python3从入门到实战—基础之数据类型（数字-Number）
+
+## [Python从入门到实战系列——目录](https://github.com/SiberiaDante/PythonResource/blob/master/README.md)
 
 Python3 中有六个标准的数据类型：
 >* Number（数字）

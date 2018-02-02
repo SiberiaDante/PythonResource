@@ -1,4 +1,7 @@
 # 5-Python3从入门到实战—基础之数据类型（列表-List）
+
+## [Python从入门到实战系列——目录](https://github.com/SiberiaDante/PythonResource/blob/master/README.md)
+
 ## 列表定义
 * list：列表（list）是Python内置的一种数据类型，list是一种有序的集合，索引从0开始，可以进行截取、组合等；
 ```

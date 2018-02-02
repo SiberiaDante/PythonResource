@@ -1,5 +1,7 @@
 # 4-Python3从入门到实战—基础之数据类型（字符串-String）
 
+## [Python从入门到实战系列——目录](https://github.com/SiberiaDante/PythonResource/blob/master/README.md)
+
 ## 字符串表示
 * 在 Python 3版本中，字符串是以 Unicode 编码的；Python 中使用 ' '或者" "表示字符串
 ```
