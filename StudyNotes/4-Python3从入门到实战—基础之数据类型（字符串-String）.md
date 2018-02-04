@@ -20,6 +20,14 @@ print (name[0:4])	# 结果：Sibe
 name = "SiberiaDante"
 print ("更新name ：",name[0：7]+"蛋疼")	# 结果：更新name：Siberia蛋疼
 ```
+* 字符串的不可变性(str.replace()相当于创建了一个新的变量，并不是改变了变量 str 的值)
+```
+    >>> str='abcd'
+    >>> str.replace('a','A')
+    'Abcd'
+    >>> str
+    'abcd'
+```
 
 ## Python转义字符
 * 在字符中使用特殊字符时，需要使用反斜杠(\)转义字符；
