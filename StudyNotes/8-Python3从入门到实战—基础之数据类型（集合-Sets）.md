@@ -1,5 +1,7 @@
 # 8-Python3从入门到实战—基础之数据类型（集合-Sets）
 
+## [Python从入门到实战系列——目录](https://github.com/SiberiaDante/PythonResource/blob/master/README.md)
+
 ## 集合的定义
 * 集合（set）和字典类似，也是一组key的集合，但不存储value；由于key不能重复，所以，在set中，没有重复的key。
 * 创建一个set，需要提供一个list作为输入集合：

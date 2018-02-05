@@ -1,5 +1,7 @@
 # 7-Python3从入门到实战—基础之数据类型（字典-Dictionary）
 
+## [Python从入门到实战系列——目录](https://github.com/SiberiaDante/PythonResource/blob/master/README.md)
+
 ## 字典的定义
 * 字典是另一种可变容器模型，且可存储任意类型对象；使用键-值（key-value）存储，具有极快的查找速度；
 字典的每个键值(key=>value)对用冒号(:)分割，每个对之间用逗号(,)分割，整个字典包括在花括号({})中
