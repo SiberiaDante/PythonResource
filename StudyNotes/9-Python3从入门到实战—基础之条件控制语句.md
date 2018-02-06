@@ -1,5 +1,7 @@
 # 9-Python3从入门到实战—基础之条件控制语句
 
+## [Python从入门到实战系列——目录](https://github.com/SiberiaDante/PythonResource/blob/master/README.md)
+
 ## 条件判断 if
 * 条件判断 if 语句语法
 ```
@@ -83,3 +85,120 @@
 >    5  大于或等于 5 ,结束循环
 
 ## 循环语句for
+* for 循环格式
+```
+    for <variable> in <sequence>:
+        <statements>
+    else:
+        <statements>
+```
+* for 循环可以遍历任何序列的项目，如一个列表或者一个字符串等
+```
+    language = ['Java', 'C', "Python", 'Kotlin']
+    for x in language:
+        print(x)
+    else:
+        print("没有找到对应的语言")
+```
+> Java  
+  C 
+  Python    
+  Kotlin    
+  没有找到对应的语言 
+
+## break 的使用
+* break 语句可以跳出 for 和 while 的循环体
+* break 在for 循环中
+```
+    for letter in 'SiberiaDante':
+        if letter == 'D':
+            print('这个字母', letter, '有毒，跳出循环')
+            break
+        print('当前字母是 ', letter)
+```
+> 输出结果：  
+  当前字母是  S  
+  当前字母是  i  
+  当前字母是  b  
+  当前字母是  e  
+  当前字母是  r  
+  当前字母是  i  
+  当前字母是  a  
+  这个字母 D 有毒，跳出循环
+* break 在while循环中
+```
+    num = 10
+    while num > 0:
+        print('-----:', num)
+        num = num - 1
+        if num == 5:
+            print('num = ', num, '终止循环')
+            break
+```
+> 输出结果：  
+  -----: 10     
+  -----: 9  
+  -----: 8  
+  -----: 7  
+  -----: 6  
+  num =  5 终止循环
+  
+## continue 的使用
+* continue 语句跳过当前循环块中的剩余语句，继续进行下一轮循环；
+* continue 在 for 循环中的使用
+```
+    for let in 'SiberiaDante':
+        if let == 'D' or let == 'a':
+            continue
+        print('当前字母：', let)
+```
+>   输出结果：     
+    当前字母： S     
+    当前字母： i     
+    当前字母： b     
+    当前字母： e     
+    当前字母： r     
+    当前字母： i     
+    当前字母： n         
+    当前字母： t     
+    当前字母： e     
+* continue 在 while 循环中的使用
+```
+    num = 6
+    while num > 0:
+        num = num - 1
+        if num == 3:
+            continue
+        print('当前数字为：', num)
+```
+>   输出结果：       
+    当前数字为： 5    
+    当前数字为： 4    
+    当前数字为： 2    
+    当前数字为： 1    
+    当前数字为： 0    
+
+## pass 的使用
+* pass是空语句，一般用做占位语句，不做任何事情，是为了保持程序结构的完整性
+```
+    for letter in 'SiberiaDante': 
+       if letter == 'D':
+          pass
+          print ('执行 pass 块')
+       print ('当前字母 :', letter)
+    print ("Good bye!")
+```
+>   输出结果：   
+    当前字母 : S    
+    当前字母 : i    
+    当前字母 : b    
+    当前字母 : e    
+    当前字母 : r    
+    当前字母 : i    
+    当前字母 : a    
+    执行 pass 块   
+    当前字母 : a    
+    当前字母 : n    
+    当前字母 : t    
+    当前字母 : e    
+    Good bye!   
