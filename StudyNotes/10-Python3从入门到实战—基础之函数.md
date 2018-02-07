@@ -42,7 +42,55 @@
     1.必需参数    
     2.关键字参数   
     3.默认参数    
-    4.不定长参数   
+    4.不定长参数 
+  
+* 必需参数须以正确的顺序传入函数；调用时的数量必须和声明时的一样；
+```
+def showmsg2(msg):
+    print(msg)
+    return
+showmsg2("必传参数")
+showmsg2()	
+```
+showmsg2("必传参数")	输出结果：
+> 必传参数
+showmsg2()	报错：
+> TypeError: showmsg2() missing 1 required positional argument: 'msg'
+
+* 关键字参数允许函数调用时参数的顺序与声明时不一致
+```
+def showusermsg(name, age):
+    print('name is ', name, '---age is ', age)
+    return
+showusermsg(age=18, name='SiebriaDante')
+```
+输出结果：
+> name is  SiebriaDante ---age is  18
+
+* 默认参数:调用函数时，如果没有传递参数，则会使用默认参数;
+```
+def showusermsg(name, age=18):
+    print('name is ', name, '--- age is ', age)
+    return
+showusermsg(name='SiebriaDante')
+```
+输出结果：
+> name is  SiebriaDante --- age is  18
+
+* 不定长参数:能处理比当初声明时更多的参数,声明时不会命名;不定长参数使用星号（*）标记
+```
+def shownumber(msg, *num):
+    print(msg)
+    for x in num:
+        print(x)
+shownumber("开始输出不定长参数：",10,20,30,40)
+```
+输出结果：
+> 开始输出不定长参数：
+10	
+20	
+30	
+40	
 
 ##  参数传递
 > 在 python 中，类型属于对象，变量是没有类型的：       
@@ -71,3 +119,4 @@
 输出结果：
 > 函数内读取 mlist 的值： [10, 20, 30, [1, 2, 3.4, 5]]  
   函数外读取 mlist 的值： [10, 20, 30, [1, 2, 3.4, 5]]
+
