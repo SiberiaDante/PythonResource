@@ -202,3 +202,17 @@
     当前字母 : t    
     当前字母 : e    
     Good bye!   
+    
+## return 语句
+* return [表达式] 语句用于退出函数，选择性地向调用方返回一个表达式；不带参数值的return语句返回None；
+```
+    def sum( arg1, arg2 ):
+       total = arg1 + arg2
+       return total;
+    
+    # 调用sum函数
+    total = sum( 10, 20 );
+    print ("调用sum函数返回结果 : ", total)
+```
+输出结果：
+> 调用sum函数返回结果 :  30
