@@ -147,3 +147,84 @@ print ("相加后的值为 : ", sum( 20, 20 ))
     G （Global） 全局作用域
     B （Built-in） 内建作用域
 ```
+> 作用域优先级由高到低： L ——> E ——> G ——> B
+```
+    b_count = 99999  # 内建作用域
+    g_count = 0  # 全局作用域
+    def outer():
+        e_count = 1  # 闭包函数外的函数中
+        def inner():
+            l_count = 2  # 局部作用域
+```
+* Python 中只有模块（module），类（class）以及函数（def、lambda）才会引入新的作用域，其它的代码块（如 if/elif/else/、try/except、for/while等）是不会引入新的作用域的，也就是说这这些语句内定义的变量，外部也可以访问，如下代码：
+```
+    >>> if True:
+    ...     msg = 'my name is SiberiaDante'
+    ...
+    >>> msg
+    'my name is SiberiaDante'
+    >>>
+```
+>  msg 变量定义在 if 语句块中，外部可以访问
+
+```
+    >>> def showmsg():
+    ...     msg_def='my name is SiberiaDante'
+    ...
+    >>> msg_def
+    Traceback (most recent call last):
+      File "<stdin>", line 1, in <module>
+    NameError: name 'msg_def' is not defined
+    >>>
+```
+> msg_def 定义在函数中，是局部变量，外部不能访问
+
+## 全局变量和局部变量
+定义在函数内部的变量拥有一个局部作用域，定义在函数外的拥有全局作用域；
+局部变量只能在其被声明的函数内部访问，而全局变量可以在整个程序范围内访问。调用函数时，所有在函数内声明的变量名称都将被加入到作用域中。如下实例：
+```
+    total = 0; # 这是一个全局变量
+    def sum( arg1, arg2 ):
+        total = arg1 + arg2; # total在这里是局部变量.
+        print ("函数内是局部变量 : ", total)
+        return total;
+    #调用sum函数
+    sum( 10, 20 );
+    print ("函数外是全局变量 : ", total)
+```
+输出结果：
+> 函数内是局部变量 :  30        
+  函数外是全局变量 :  0
+
+## global 和 nonlocal关键字
+当内部作用域想修改外部作用域的变量时，需要使用global和nonlocal关键字声明
+* 简单使用 global 关键字声明
+```
+    >>> num = 1314
+    >>> def showNum():
+    ...     global num
+    ...     print(num)
+    ...     num = 520
+    ...     print(num)
+    ...
+    >>> showNum()
+    1314
+    520
+    >>>
+```
+* 外层非全局作用域时，修改变量需要使用 nonlocal 关键字
+```
+    >>> def outer():
+    ...     num=1314
+    ...     def inner():
+    ...             nonlocal num
+    ...             print(num)
+    ...             num = 520
+    ...             print(num)
+    ...     inner()
+    ...
+    >>> outer()
+    1314
+    520
+    >>>
+```
