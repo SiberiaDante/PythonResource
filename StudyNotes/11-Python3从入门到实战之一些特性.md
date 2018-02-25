@@ -39,10 +39,10 @@ Python 中通过for循环来遍历list或tuple，这种遍历称为迭代（Iter
 ```
 >>> user={'0':'张三','1':'李四','2':'王五','3':'赵六',}
 >>> for key in user:
->>>     print(key)
+...     print(key)
 >>> print('---------分割线-----------')
 >>> for value in user.values():
->>>     print(value)
+...     print(value)
 ```
 输出结果：
 >   0   
@@ -69,7 +69,7 @@ Python 中通过for循环来遍历list或tuple，这种遍历称为迭代（Iter
 ```
 >>> user={'0':'张三','1':'李四','2':'王五','3':'赵六',}
 >>> for key,value in enumerate(user.values()):
->>>     print(key,value)
+...     print(key,value)
 ```
 输出结果：
 > 0 张三      
@@ -99,7 +99,7 @@ Python 中通过for循环来遍历list或tuple，这种遍历称为迭代（Iter
 >>> nums = [1,2,3,4]
 >>> num = iter(nums)
 >>> for n in num:
->>>     print(n)
+...     print(n)
 ```
 输出结果：
 > 1     
@@ -110,11 +110,11 @@ Python 中通过for循环来遍历list或tuple，这种遍历称为迭代（Iter
 * 迭代器结合 while 循环使用
 ```
 >>> while True:
->>>     try:
->>>         print(next(num))
->>>     except StopIteration:
->>>         print("迭代完毕")
->>>         sys.exit()
+...     try:
+...         print(next(num))
+...     except StopIteration:
+...         print("迭代完毕")
+...         sys.exit()
 ```
 输出：
 > 1     
@@ -124,5 +124,40 @@ Python 中通过for循环来遍历list或tuple，这种遍历称为迭代（Iter
   迭代完毕      
   
 ## 列表生成式
-
+* 生成列表的方法
+```
+>>> list(range(10))
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
+* 原始生成[1*1,2*2,...,10*10]方法
+```
+>>> for x in range(1,11):
+...     l.append(x*x)
+...
+>>> l
+[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+>>>
+```
+* 使用Python内置强大的生成[1*1,2*2,...,10*10]列表的方法
+```
+>>> [x * x for x in range(1,11)]
+[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+>>>
+```
+* 生成[1*1,2*2,...,10*10]元素为偶数的列表
+```
+>>> [x * x for x in range(1,11) if x % 2 ==0]
+[4, 16, 36, 64, 100]
+```
+* 双重循环生成列表
+```
+>>> [x + y for x in 'ABC' for y in 'abc']
+['Aa', 'Ab', 'Ac', 'Ba', 'Bb', 'Bc', 'Ca', 'Cb', 'Cc']
+```
+* 使用两个变量生成列表
+```
+>>> str = {'x': 'A', 'y': 'B', 'z': 'C' }
+>>> [key + '=' + value for key, value in str.items()]
+['x=A', 'y=B', 'z=C']
+```
 ## 生成器
