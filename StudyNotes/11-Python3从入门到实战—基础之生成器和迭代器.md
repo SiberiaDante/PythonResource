@@ -1,4 +1,4 @@
-# 11-Python3从入门到实战之一些特性
+# 11-Python3从入门到实战—基础之生成器和迭代器
 
 ## [Python从入门到实战系列——目录](https://github.com/SiberiaDante/PythonResource/blob/master/README.md)
 
@@ -161,3 +161,76 @@ Python 中通过for循环来遍历list或tuple，这种遍历称为迭代（Iter
 ['x=A', 'y=B', 'z=C']
 ```
 ## 生成器
+通过列表生成式可以生成一个列表，但是列表受内存限制，容量是有限的，并且，如果创建一个包含几百万元素的列表，而只需要使用其中元素时便造成了空间浪费；
+这时候就应该使用生成器（generator）；生成器表达式能做的事情列表解析基本都能处理，只不过在需要处理的序列比较大时，列表解析比较费内存。
+* 创建一个生成器
+```
+>>> gen = (x * x for x in range(10))
+>>> gen
+<generator object <genexpr> at 0x0000000002742E08>
+>>>
+```
+* 读取生成器中的元素
+```
+>>> for x in gen:
+...     print(x)
+...
+0
+1
+4
+9
+16
+25
+36
+49
+64
+81
+>>>
+```
+
+
+### 生成器函数 
+生成器函数：在函数中如果出现了yield关键字，那么该函数就不再是普通函数，而是生成器函数；
+* 使用函数实现斐波拉契数列
+```
+def fib(max):
+    n, a, b = 0, 0, 1
+    while n < max:
+        print(b)
+        a, b = b, a + b
+        n = n + 1
+    return 'done'
+```
+```
+>>> fib(6)
+1
+1
+2
+3
+5
+8
+'done'
+```
+* 使用生成器函数实现斐波拉契数列
+```
+def fib(max):
+    n, a, b = 0, 0, 1
+    while n < max:
+        yield b
+        a, b = b, a + b
+        n = n + 1
+    return 'done'
+```
+```
+>>> for n in fib(6):
+...     print(n)
+...
+1
+1
+2
+3
+5
+8
+```
+* generator和函数的执行流程不一样。函数是顺序执行，遇到return语句或者最后一行函数语句就返回。而变成generator的函数，在每次调用next()的时候执行，遇到yield语句返回，再次执行时从上次返回的yield语句处继续执行。
+
