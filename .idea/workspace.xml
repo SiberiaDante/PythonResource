@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4e1b1fe-d301-4fe8-bf01-4ffeb964edcd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StudyNotes/12-Python3从入门到实战—高级之数据结构.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/StudyNotes/11-Python3从入门到实战之一些特性.md" afterPath="$PROJECT_DIR$/StudyNotes/11-Python3从入门到实战—基础之生成器和迭代器.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -228,7 +226,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520083797904" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520084367950" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -276,7 +274,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520083797904" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520084367950" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -502,12 +500,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519543994819</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="11-Python3从入门到实战—基础之生成器和迭代器">
+      <created>1520083807571</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1520083807571</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -544,7 +548,8 @@
     <MESSAGE value="9-Python3从入门到实战—基础之条件控制语句" />
     <MESSAGE value="10-Python3从入门到实战—基础之函数" />
     <MESSAGE value="11-Python3从入门到实战之一些特性" />
-    <option name="LAST_COMMIT_MESSAGE" value="11-Python3从入门到实战之一些特性" />
+    <MESSAGE value="11-Python3从入门到实战—基础之生成器和迭代器" />
+    <option name="LAST_COMMIT_MESSAGE" value="11-Python3从入门到实战—基础之生成器和迭代器" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
