@@ -16,3 +16,12 @@
 #### []()
 
 ### [了解/学习更多资源ResourceCollection](https://github.com/SiberiaDante/ResourceCollection)
+变量、系数和函数
+线性方程式
+对数和对数方程式
+S 型函数
+
+导数概念（您不必真正计算导数）
+梯度或斜率
+偏导数（与梯度紧密相关）
+链式法则（可让您全面了解用于训练神经网络的反向传播算法）

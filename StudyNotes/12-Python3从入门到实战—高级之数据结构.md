@@ -1,5 +1,7 @@
 # 11-Python3从入门到实战—高级之数据结构
 
+## [Python从入门到实战系列——目录](https://github.com/SiberiaDante/PythonResource/blob/master/README.md)
+
 ## 列表相关操作
 <table>
 <tr>
@@ -99,7 +101,6 @@
 ## 列表推导式
 
 ## 嵌套列表解析
-
 Python的列表还可以嵌套；创建一个3X4的矩阵列表：
 ```
 >>> matrix = [
