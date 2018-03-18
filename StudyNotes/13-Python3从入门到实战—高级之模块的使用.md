@@ -147,11 +147,13 @@ age__', '__spec__', 'username']
 import com.file.showMsg
 ```
 > 如上这种导入方式，使用模块时需要包名全路径：com.file.showMsg.print...;
+
 ```
 # 第二种导入方式
 ```
 from com.file import showMsg
 ```
+
 > 这种导入方式就可以直接使用 showMsg.***，不需要那些冗长的前缀包名
 ```
 # 第三种导入,可以导入模块showMsg中的变量、函数等
