@@ -59,3 +59,9 @@ print('你输入的名字是：',name)
 > 请输入你的名字：SiberiaDante
 > 
 > 你输入的名字是： SiberiaDante
+
+## 文件的读写
+* 打开文件
+```
+open(filename, mode)
+```
