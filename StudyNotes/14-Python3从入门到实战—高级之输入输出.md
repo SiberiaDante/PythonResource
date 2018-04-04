@@ -68,3 +68,9 @@ print('你输入的名字是：',name)
 * f.readline()
 * f.readlines()
 * f.write()
+
+## 文件的读写
+* 打开文件
+```
+open(filename, mode)
+```
