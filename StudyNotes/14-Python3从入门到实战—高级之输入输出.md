@@ -59,3 +59,12 @@ print('你输入的名字是：',name)
 > 请输入你的名字：SiberiaDante
 > 
 > 你输入的名字是： SiberiaDante
+
+## 读写文件操作
+* open(filename, mode)
+    * filename:文件名称；
+    * mode:文件的打开模式，只读，写入，追加等；
+* f.read()：读取一个文件的内容
+* f.readline()
+* f.readlines()
+* f.write()
