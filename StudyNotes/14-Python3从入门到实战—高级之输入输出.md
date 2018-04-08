@@ -65,6 +65,6 @@ print('你输入的名字是：',name)
     * filename:文件名称；
     * mode:文件的打开模式，只读，写入，追加等；
 * f.read()：读取一个文件的内容
-* f.readline()
-* f.readlines()
-* f.write()
+* f.readline()：读取单独的一行，换行符标志位“\n”,如果返回一个空字符串, 说明已经已经读取到最后一行；
+* f.readlines()：读取文件中包含的所有行；
+* f.write()：将数据写入到文件中, 然后返回写入的字符数；
