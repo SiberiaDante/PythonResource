@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f4e1b1fe-d301-4fe8-bf01-4ffeb964edcd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/StudyNotes/16-Python3从入门到实战—高级之面向对象.md" afterPath="$PROJECT_DIR$/StudyNotes/16-Python3从入门到实战—高级之面向对象.md" />
+      <change beforePath="$PROJECT_DIR$/StudyNotes/4-Python3从入门到实战—基础之数据类型（字符串-String）.md" afterPath="$PROJECT_DIR$/StudyNotes/4-Python3从入门到实战—基础之数据类型（字符串-String）.md" />
+      <change beforePath="$PROJECT_DIR$/StudyNotes/5-Python3从入门到实战—基础之数据类型（列表-List）.md" afterPath="$PROJECT_DIR$/StudyNotes/5-Python3从入门到实战—基础之数据类型（列表-List）.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,7 +14,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="17-Python3从入门到实战—高级之正则表达式.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/StudyNotes/17-Python3从入门到实战—高级之正则表达式.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="216">
+                <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,11 +43,9 @@
       <list>
         <option value="$PROJECT_DIR$/StudyNotes/1-Python3从入门到实战—基础之语法.md" />
         <option value="$PROJECT_DIR$/StudyNotes/2-Python3从入门到实战—基础之运算符.md" />
-        <option value="$PROJECT_DIR$/StudyNotes/5-Python3从入门到实战—基础之数据类型（列表-List）.md" />
         <option value="$PROJECT_DIR$/StudyNotes/3-Python3从入门到实战—基础之数据类型（数字-Number）.md" />
         <option value="$PROJECT_DIR$/StudyNotes/7-Python3从入门到实战—基础之数据类型（字典-Dictionary）.md" />
         <option value="$PROJECT_DIR$/StudyNotes/8-Python3从入门到实战—基础之数据类型（集合-Sets）.md" />
-        <option value="$PROJECT_DIR$/StudyNotes/4-Python3从入门到实战—基础之数据类型（字符串-String）.md" />
         <option value="$PROJECT_DIR$/StudyNotes/10-Python3从入门到实战—基础之函数.md" />
         <option value="$PROJECT_DIR$/StudyNotes/11-Python3从入门到实战之一些特性.md" />
         <option value="$PROJECT_DIR$/StudyNotes/9-Python3从入门到实战—基础之条件控制语句.md" />
@@ -45,6 +58,8 @@
         <option value="$PROJECT_DIR$/StudyNotes/14-Python3从入门到实战—高级之输入输出.md" />
         <option value="$PROJECT_DIR$/StudyNotes/17-Python3从入门到实战—高级之正则表达式.md" />
         <option value="$PROJECT_DIR$/StudyNotes/16-Python3从入门到实战—高级之面向对象.md" />
+        <option value="$PROJECT_DIR$/StudyNotes/4-Python3从入门到实战—基础之数据类型（字符串-String）.md" />
+        <option value="$PROJECT_DIR$/StudyNotes/5-Python3从入门到实战—基础之数据类型（列表-List）.md" />
       </list>
     </option>
   </component>
@@ -73,7 +88,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -81,13 +97,17 @@
               <item name="PythonResource" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonResource" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PythonResource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonResource" type="462c0819:PsiDirectoryNode" />
+              <item name="StudyNotes" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -498,11 +518,19 @@
       <option name="project" value="LOCAL" />
       <updated>1524552238716</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="16-Python3从入门到实战—高级之面向对象">
+      <created>1524563962160</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1524563962160</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -514,7 +542,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21654373" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24183351" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -554,7 +582,8 @@
     <MESSAGE value="add readme" />
     <MESSAGE value="13-Python3从入门到实战—高级之模块的使用" />
     <MESSAGE value="17-Python3从入门到实战—高级之正则表达式" />
-    <option name="LAST_COMMIT_MESSAGE" value="17-Python3从入门到实战—高级之正则表达式" />
+    <MESSAGE value="16-Python3从入门到实战—高级之面向对象" />
+    <option name="LAST_COMMIT_MESSAGE" value="16-Python3从入门到实战—高级之面向对象" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -697,11 +726,9 @@
     <entry file="file://$PROJECT_DIR$/StudyNotes/4-Python3从入门到实战—基础之数据类型（字符串-String）.md" />
     <entry file="file://$PROJECT_DIR$/StudyNotes/5-Python3从入门到实战—基础之数据类型（列表-List）.md" />
     <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/StudyNotes/1-Python3从入门到实战—基础之语法.md" />
     <entry file="file://$PROJECT_DIR$/StudyNotes/2-Python3从入门到实战—基础之运算符.md" />
     <entry file="file://$PROJECT_DIR$/StudyNotes/Python3从入门到实战之初步认识（1）.md" />
     <entry file="file://$PROJECT_DIR$/StudyNotes/3-Python3从入门到实战—基础之数据类型（数字-Number）.md" />
-    <entry file="file://$PROJECT_DIR$/StudyNotes/4-Python3从入门到实战—基础之数据类型（字符串-String）.md" />
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -710,16 +737,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StudyNotes/11-Python3从入门到实战之一些特性.md" />
-    <entry file="file://$PROJECT_DIR$/StudyNotes/5-Python3从入门到实战—基础之数据类型（列表-List）.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="574">
-            <caret line="105" column="17" lean-forward="false" selection-start-line="105" selection-start-column="17" selection-end-line="105" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StudyNotes/6-Python3从入门到实战—基础之数据类型（元组-Tuple）.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -785,16 +802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StudyNotes/12-Python3从入门到实战—高级之数据结构.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1863">
-            <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StudyNotes/11-Python3从入门到实战—基础之生成器和迭代器.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -825,11 +832,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StudyNotes/14-Python3从入门到实战—高级之输入输出.md">
+    <entry file="file://$PROJECT_DIR$/StudyNotes/1-Python3从入门到实战—基础之语法.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="378">
+            <caret line="119" column="7" lean-forward="true" selection-start-line="119" selection-start-column="7" selection-end-line="119" selection-end-column="7" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyNotes/4-Python3从入门到实战—基础之数据类型（字符串-String）.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="459">
+            <caret line="83" column="24" lean-forward="true" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyNotes/5-Python3从入门到实战—基础之数据类型（列表-List）.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyNotes/16-Python3从入门到实战—高级之面向对象.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
-            <caret line="0" column="22" lean-forward="true" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="22" />
+            <caret line="0" column="26" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="26" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -846,11 +887,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/StudyNotes/14-Python3从入门到实战—高级之输入输出.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="22" lean-forward="true" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="22" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/StudyNotes/13-Python3从入门到实战—高级之模块的使用.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyNotes/12-Python3从入门到实战—高级之数据结构.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="27">
+            <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -859,19 +923,8 @@
     <entry file="file://$PROJECT_DIR$/StudyNotes/17-Python3从入门到实战—高级之正则表达式.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StudyNotes/16-Python3从入门到实战—高级之面向对象.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="26" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="26" />
+          <first_editor relative-caret-position="216">
+            <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
             <folding />
           </first_editor>
           <second_editor />

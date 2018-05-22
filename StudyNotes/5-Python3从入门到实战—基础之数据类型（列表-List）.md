@@ -9,7 +9,7 @@
     list1 = [1,2,3,4,5]
     list2 = ["Java","C++","Python","Kotlin"]
     print(list1[0]) # 结果：1
-    print(list1[2]) # 结果：Python
+    print(list2[2]) # 结果：Python
 ```
 
 ## 获取列表中的数据
