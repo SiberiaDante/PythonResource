@@ -15,11 +15,13 @@
 #### [12-Python3从入门到实战—高级之数据结构](https://github.com/SiberiaDante/PythonResource/blob/master/StudyNotes/12-Python3%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%AE%9E%E6%88%98%E2%80%94%E9%AB%98%E7%BA%A7%E4%B9%8B%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md)
 #### [13-Python3从入门到实战—高级之模块的使用](https://github.com/SiberiaDante/PythonResource/blob/master/StudyNotes/13-Python3%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%AE%9E%E6%88%98%E2%80%94%E9%AB%98%E7%BA%A7%E4%B9%8B%E6%A8%A1%E5%9D%97%E7%9A%84%E4%BD%BF%E7%94%A8.md)
 #### [14-Python3从入门到实战—高级之输入输出](https://github.com/SiberiaDante/PythonResource/blob/master/StudyNotes/14-Python3%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%AE%9E%E6%88%98%E2%80%94%E9%AB%98%E7%BA%A7%E4%B9%8B%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA.md)
-#### [](https://github.com/SiberiaDante/PythonResource/blob/master/StudyNotes/15-Python3%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%AE%9E%E6%88%98%E2%80%94%E9%AB%98%E7%BA%A7%E4%B9%8B%E9%94%99%E8%AF%AF%E4%B8%8E%E5%BC%82%E5%B8%B8.md)
+#### [15-Python3从入门到实战—高级之错误与异常](https://github.com/SiberiaDante/PythonResource/blob/master/StudyNotes/15-Python3%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%AE%9E%E6%88%98%E2%80%94%E9%AB%98%E7%BA%A7%E4%B9%8B%E9%94%99%E8%AF%AF%E4%B8%8E%E5%BC%82%E5%B8%B8.md)
 #### [16-Python3从入门到实战—高级之面向对象](https://github.com/SiberiaDante/PythonResource/blob/master/StudyNotes/16-Python3%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%AE%9E%E6%88%98%E2%80%94%E9%AB%98%E7%BA%A7%E4%B9%8B%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1.md)
 #### [17-Python3从入门到实战—高级之正则表达式](https://github.com/SiberiaDante/PythonResource/blob/master/StudyNotes/17-Python3%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%AE%9E%E6%88%98%E2%80%94%E9%AB%98%E7%BA%A7%E4%B9%8B%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.md)
 #### []()
 
+## Python基础语法系列
+[爬取Rosimm写真网站全部图片](https://github.com/SiberiaDante/RosimmImage)<br />
 ### [了解/学习更多资源ResourceCollection](https://github.com/SiberiaDante/ResourceCollection)
 变量、系数和函数
 线性方程式
